@@ -70,6 +70,11 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="DreamCatcher" id="y2F-cR-8eV">
+                        <barButtonItem key="leftBarButtonItem" title="Edit" id="Fm2-fZ-ntF">
+                            <connections>
+                                <action selector="onEditButtonTapped:" destination="vXZ-lx-hvc" id="djE-WY-e9u"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="YLu-0Q-8TF">
                             <connections>
                                 <action selector="onAddButtonTapped:" destination="vXZ-lx-hvc" id="yXH-dl-3jG"/>

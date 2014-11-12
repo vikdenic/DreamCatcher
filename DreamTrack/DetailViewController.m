@@ -16,6 +16,7 @@
 
 @implementation DetailViewController
 
+#pragma mark - View lifecycle
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = self.titleString;
